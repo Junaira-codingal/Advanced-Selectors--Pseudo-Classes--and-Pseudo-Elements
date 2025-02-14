@@ -1,0 +1,43 @@
+body {
+  font-family: Consolas;
+  background-color: #0d1117;
+  color: #c9d1d9;
+}
+
+h1 {
+  color: #58a6ff;
+  text-shadow: 7px 7px 7px blueviolet;
+}
+a {
+  color: #8b949e;
+  text-decoration: none;
+}
+a:hover {
+  color: #1f6feb;
+  font-size: 20px;
+  text-shadow: 7px 7px 7px blueviolet;
+  font-weight: bold;
+}
+a::after {
+  content: "👀";
+}
+ul > li {
+  font-weight: bold;
+  text-shadow: 7px 7px 10px blue;
+}
+ul li:hover {
+  color: #4f8cc9;
+  text-shadow: 7px 7px 7px blueviolet;
+  font-size: 20px;
+  background-color: #21262d;
+}
+ul li::before {
+  content: "😑";
+}
+ul li:nth-child(3) {
+  background-color: #21262d;
+}
+p::first-letter {
+  font-size: 200%;
+  color: #ff7b72;
+}
