@@ -1,25 +1,25 @@
 body {
   font-family: Consolas;
-  background-color: #0d1117;
+  background-color: #f6eace;
   color: #c9d1d9;
 }
 
 h1 {
-  color: #58a6ff;
-  text-shadow: 7px 7px 7px blueviolet;
+  color: #da5f43;
+  text-shadow: 7px 7px 7px rgb(94, 86, 25);
 }
 a {
   color: #8b949e;
   text-decoration: none;
 }
 a:hover {
-  color: #1f6feb;
+  color: #bcc091;
   font-size: 20px;
-  text-shadow: 7px 7px 7px blueviolet;
+  text-shadow: 7px 7px 7px rgb(192, 162, 104);
   font-weight: bold;
 }
 a::after {
-  content: "👀";
+  content: "🌐";
 }
 ul > li {
   font-weight: bold;
@@ -34,10 +34,10 @@ ul li:hover {
 ul li::before {
   content: "😑";
 }
-ul li:nth-child(3) {
+dl li:nth-child(:hover) {
   background-color: #21262d;
 }
-p::first-letter {
+h1::first-letter {
   font-size: 200%;
   color: #ff7b72;
 }
