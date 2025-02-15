@@ -21,13 +21,13 @@ a:hover {
 a::after {
   content: "🌐";
 }
-ul > li {
+dl > li {
   font-weight: bold;
-  text-shadow: 7px 7px 10px blue;
+  text-shadow: 7px 7px 10px rgb(94, 64, 25);
 }
-ul li:hover {
+dl li:hover {
   color: #4f8cc9;
-  text-shadow: 7px 7px 7px blueviolet;
+  text-shadow: 7px 7px 7px rgb(222, 133, 89);
   font-size: 20px;
   background-color: #21262d;
 }
@@ -35,7 +35,7 @@ dl li::before {
   content: "✔️";
 }
 dl li:nth-child(:hover) {
-  background-color: #21262d;
+  background-color: #c06d43;
 }
 h1::first-letter {
   font-size: 200%;
